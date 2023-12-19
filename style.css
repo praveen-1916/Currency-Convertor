@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/premium-vector/money-transfer-global-currency_115579-1115.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.convertor{
+    max-height: 70vh;
+    height: 55vh;
+    width: 50vh;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 60px #00000079,inset -20px -20px 60px #ffffff70;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.inputAmount{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.inputAmount input{
+    width: 100%;
+    height: 1.5rem;
+    padding: 0.5rem 0 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    background-color: #edf2f4;
+    color: #000;
+}
+
+.dropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropDown i{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.selectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.selectContainer img{
+    max-width: 2rem;
+    object-fit: cover;
+}
+
+.selectContainer select{
+    font-size: 1rem;
+    width: auto;
+    background: none;
+    border: none;
+    outline: none;
+    color: #f4f3ee;
+}
+
+.selectContainer select option{
+    color: #000;
+}
+
+.msg{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+}
+
+button{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #012a4a;
+    color: #f4f3ee;
+    font-weight: bolder;
+    cursor: pointer;
+}
